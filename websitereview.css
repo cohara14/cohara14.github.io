@@ -1,0 +1,14 @@
+#wrap {
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+  border-color: silver;
+}
+#wrap p {
+  width: 50%;
+}
+#wrap img {
+  margin: 4% 4%;
+  width: 23%;
+  float: right;
+}
