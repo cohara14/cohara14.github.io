@@ -1,0 +1,198 @@
+html,body{
+  margin:0;
+  padding: 0;
+  background: #ddd;
+  font-family: arial;
+}
+
+#wrap {
+  margin:0 auto;
+  width: 75%;
+}
+
+header,nav,section,footer {
+  background: white;
+}
+
+header {
+  background-color:lightgrey;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+nav {
+  background-color:black;
+  color: lightgrey;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%
+  font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px;
+}
+
+
+section {
+  background-color: #FFCCCB;
+  overflow: auto;
+}
+
+aside {
+  background-color: grey;
+  width: 21%;
+  float: left;
+  padding: 2% 0 0 0%;
+}
+
+aside li{
+list-style-type: none;
+}
+
+aside a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 58.5px 10px 100px 50px;
+}
+
+aside a:hover {
+  background-color: lightgrey;
+  color:black;
+}
+
+aside ul{
+  padding: 0;
+  margin: 0;
+}
+
+article{
+  background-color: #FFCCCB;
+  width: 67%;
+  float: right;
+  padding: 2 4%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.yesseasons {
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yesspring {
+  background-color: lightgreen;
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yessummer {
+  background-color: yellow;
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yesfall {
+  background-color: orange;
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yeswinter {
+  background-color: lightblue;
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.spring section{
+  background-color: lightgreen;
+}
+
+.spring article{
+  background-color: lightgreen;
+}
+
+.spring aside{
+  background-color: lightblue;
+}
+.fall section{
+  background-color: #f47b20;
+}
+
+.fall article{
+  background-color: #f47b20;
+}
+
+.fall aside{
+  background-color: #f79762;
+}
+
+.summer article{
+  background-color: #f0e68c;
+}
+
+.summer section{
+  background-color: #f0e68c;
+}
+
+.summer aside{
+  background-color: #009dc4;
+}
+
+.winter section {
+  background-color: lightblue;
+}
+
+.winter article{
+  background-color: lightblue;
+}
+
+.winter aside{
+background-color: white;
+}
+@season only screen and (max-width: 800px){
+  body {
+    background-color: #lightblue;
+  }
+  aside {
+    text-align: center;
+  }
+  #wrap{
+    width: 100%;
+  }
+  nav li{
+    display: block;
+  }
+  nav a{
+    display: block;
+  }
+.yesseasons {
+  float: none;
+
+}
+  }
+}
