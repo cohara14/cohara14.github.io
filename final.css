@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Koulen&family=Roboto+Slab:wght@900&family=Rye&display=swap');
+
+html,body{
+  margin:0;
+  padding: 0;
+  background: #lightgrey;
+  font-family: sans-serif;
+}
+
+#wrap {
+  margin:0 auto;
+  width: 75%;
+}
+
+header,nav,section,footer {
+  background: #F5F5F5;
+}
+
+header {
+  background-color:lightblue;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  font-family: 'Koulen';
+}
+
+nav {
+  background-color:#21B6A8;
+  color: lightgrey;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Koulen';
+  font-size: 22px;
+
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%
+  font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px;
+}
+
+
+section {
+  background-color: #lightgrey;
+  overflow: auto;
+  font-family: sans-serif;
+}
+
+aside {
+  background-color: grey;
+  width: 21%;
+  float: left;
+  padding: 2% 0 0 0%;
+}
+
+aside li{
+list-style-type: none;
+}
+
+aside a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 58.5px 10px 100px 50px;
+  font-family: 'Koulen';
+  font-size: 22px;
+}
+
+aside a:hover {
+  background-color: lightgrey;
+  color:black;
+}
+
+aside ul{
+  padding: 0;
+  margin: 0;
+}
+
+article{
+  background-color: #lightgrey;
+  width: 67%;
+  float: right;
+  padding: 2 4%;
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.yesbenhank {
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yesguidetwo {
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yeswater {
+  width: 80%;
+  float: none;
+  margin: 0px 0px 0px;
+}
+
+.yesraft {
+  background-color: lightgreen;
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yesrental {
+  background-color: white;
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yesrental2 {
+  background-color: white;
+  width: 80%;
+  float: right;
+  margin: 50px 120px 15px 8px;
+}
+
+.yesframe {
+  background-color: white;
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.yeswinter {
+  background-color: lightblue;
+  width: 35%;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+
+.final section{
+  background-color: lightgreen;
+}
+
+.final article{
+  background-color: lightgreen;
+}
+
+.final aside{
+  background-color: lightblue;
+}
+
+.raft section{
+  background-color: #lightgrey;
+}
+
+.raft article{
+  background-color: #lightgrey;
+}
+
+.raft aside{
+  background-color: #white;
+}
+
+.guidedtrips section{
+  background-color: #white;
+}
+
+.guidedtrips article{
+  background-color: #white;
+}
+
+.guidedtrips aside{
+  background-color: #white;
+}
+.rentals article{
+  background-color: #lightgrey;
+}
+
+.rentals section{
+  background-color: #lightgrey;
+}
+
+.rentals aside{
+  background-color: #lightgrey;
+}
+
+.photos section {
+  background-color: lightblue;
+}
+
+.photos article{
+  background-color: lightblue;
+}
+
+.photos aside{
+background-color: white;
+}
+
+
+@final only screen and (max-width: 800px){
+  body {
+    background-color: #lightblue;
+  }
+  aside {
+    text-align: center;
+  }
+  #wrap{
+    width: 100%;
+  }
+  nav li{
+    display: block;
+  }
+  nav a{
+    display: block;
+  }
+.yesbenhank {
+  float: none;
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 5%;
+    padding: 10px;
+  }
+
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .column img:hover {
+    opacity: 1;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+}
+  }
+}
